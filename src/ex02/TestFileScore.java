@@ -22,8 +22,8 @@ public class TestFileScore {
 		
 		String           line = "";
 		//  제목줄(첫줄)은 스킵한다. 
-		String         header = br.readLine();
 		
+		//String         header = br.readLine();
 	    //System.out.println( header);
 		
 		String title = "번호  이름  국어  수학  영어  총점  평균";

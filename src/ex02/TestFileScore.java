@@ -21,6 +21,7 @@ public class TestFileScore {
 		BufferedWriter     bw = new BufferedWriter (fw);
 		
 		String           line = "";
+		//  제목줄(첫줄)은 스킵한다. 
 		String         header = br.readLine();
 		
 	    //System.out.println( header);
